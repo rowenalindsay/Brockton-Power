@@ -39,6 +39,21 @@ li {
   height: 950px;
 }
 
+.parallax2 {
+  background-image: url("../../");
+  height: 500px;
+}
+
+.parallax3 {
+  background-image: url("../../");
+  height: 500px;
+}
+
+.parallax4 {
+  background-image: url("../../");
+  height: 500px;
+}
+
 .headline, .byline, .about-project, .littleheadline {
   color: white;
   text-align: center;
@@ -61,6 +76,43 @@ li {
 }
 
 a.about-project{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+/*Article Contnet*/
+drop-cap {
+  color: black;
+  float: left;
+  font-family: Georgia;
+  font-size: 80px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.caption {
+  font-weight: 500;
+}
+
+p.powerplant {
+  font-style: italic;
+}
+
+.dataviz {
+  padding: 20px 10px 20px 10px;
+  background-color: #f4f4f4;
+}
+
+.subhead {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.about {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
