@@ -117,3 +117,9 @@ p.powerplant {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
+
+@media only screen and (max-width: 770px) {
+  .photos {
+    display: none;
+  }
+}
