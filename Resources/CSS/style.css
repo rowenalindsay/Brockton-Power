@@ -20,9 +20,47 @@ li {
 }
 
 
-/*Jumbotron*/
+/*Jumbotron and Parallax*/
 .headline {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 80px;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("../../Resources/Photos/parallax.jpg");
+  height: 950px;
+}
+
+.headline, .byline, .about-project, .littleheadline {
+  color: white;
+  text-align: center;
+}
+
+.littleheadline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.headline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.byline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+a.about-project{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
