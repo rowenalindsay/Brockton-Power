@@ -1,0 +1,23 @@
+/*General Stylings*/
+p {
+  font-family: 'Lora', serif;
+}
+
+/*Navigation Bar*/
+
+@media only screen and (max-width: 770px) {
+  .navbar {
+    display: none;
+  }
+}
+
+a.navbar {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Jumbotron*/
+.headline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+}
