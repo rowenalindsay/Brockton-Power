@@ -82,10 +82,10 @@ a.about-project{
 
 
 /*Article Contnet*/
-drop-cap {
+.drop-cap {
   color: black;
   float: left;
-  font-family: Georgia;
+  font-family: 'Lora', serif;
   font-size: 80px;
   line-height: 60px;
   padding-top: 4px;
